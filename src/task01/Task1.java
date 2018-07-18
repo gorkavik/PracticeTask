@@ -5,39 +5,86 @@ import java.io.InputStreamReader;
 
 public class Task1
 {
+
+
     public static void main(String[] args) throws Exception
     {
+        System.out.println("Введите только целые или только дробные числа:");
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         String s;
+        int c = 5;
+        int[] a = new int[c];
+        double[] b = new double[c];
 
-        int[] a = new int[5];
-        int i = 0;
-        double j=0;
-        while (i < a.length)
+        int j = 0;
+
+        for (int i = 0; i < c; i++)
         {
-            if(i)
             s = read.readLine();
-            a[i] = Integer.parseInt(s);
-            i++;
+            b[i] = Double.parseDouble(s);
+            if (b[i] % 1 == 0)
+            {
+                a[i] = Integer.parseInt(s);
+                j++;
+            }
+
         }
-        int sumNumb = getSumNumbers(a);
+        if (j == c)
+        {
+            getInteger(a);
+        } else if (j == 0)
+        {
+            getDouble(b);
+        } else
+        {
+            System.out.println("Не корректный ввод");
+        }
+
+    }
+
+
+    private static void getInteger(int[] numbers)
+    {
+        int sumNumb = getSumNumbers(numbers);
         System.out.println("Сумма чисел:" + sumNumb);
 
-        int razNumb = getRazNumbers(a);
+        int razNumb = getRazNumbers(numbers);
         System.out.println("Разность чисел:" + razNumb);
 
-        int proizNumb = getProizNumbers(a);
+        int proizNumb = getProizNumbers(numbers);
         System.out.println("Произведение чисел:" + proizNumb);
 
-        int minNumb = getMinNumbers(a);
+        int minNumb = getMinNumbers(numbers);
         System.out.println("Минимальное из чисел:" + minNumb);
 
-        int maxNumb = getMaxNumbers(a);
+        int maxNumb = getMaxNumbers(numbers);
         System.out.println("Максимальное из чисел:" + maxNumb);
 
-        int srznachNumber = getSrznachNumbers(a);
+        int srznachNumber = getSrznachNumbers(numbers);
         System.out.println("Среднее значение чисел:" + srznachNumber);
     }
+
+    private static void getDouble(double[] numbers)
+    {
+        double sumNumb = getSumNumbers(numbers);
+        System.out.println("Сумма чисел:" + sumNumb);
+
+        double razNumb = getRazNumbers(numbers);
+        System.out.println("Разность чисел:" + razNumb);
+
+        double proizNumb = getProizNumbers(numbers);
+        System.out.println("Произведение чисел:" + proizNumb);
+
+        double minNumb = getMinNumbers(numbers);
+        System.out.println("Минимальное из чисел:" + minNumb);
+
+        double maxNumb = getMaxNumbers(numbers);
+        System.out.println("Максимальное из чисел:" + maxNumb);
+
+        double srznachNumber = getSrznachNumbers(numbers);
+        System.out.println("Среднее значение чисел:" + srznachNumber);
+    }
+
 
     // for int
     private static int getSumNumbers(int[] numbers)
