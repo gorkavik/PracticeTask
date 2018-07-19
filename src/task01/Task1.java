@@ -9,26 +9,80 @@ public class Task1
 
     public static void main(String[] args) throws Exception
     {
-        System.out.println("Введите только целые или только дробные числа:");
+        int c = 5;// amount of numbers for math operation
+        System.out.println("Выберите формат ввода чисел:");
+        System.out.println("1) Ввести " + c + " чисел вручную");
+        System.out.println("2) Произвольный выбор чисел из диапазона 0...100");
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
-        String s;
-        int c = 5;
+        String s = read.readLine();
+        int vybor = Integer.parseInt(s);
+        switch (vybor)
+        {
+            case 1:
+            {
+                System.out.println("Введите " + c + " только целых или только дробных числа через пробел:");
+                s = read.readLine();
+                break;
+            }
+            case 2:
+            {
+                System.out.println("Выберите - целые или вещественные числа:");
+                System.out.println("1) Целые");
+                System.out.println("2) Вещественные");
+                s = read.readLine();
+                switch (Integer.parseInt(s))
+                {
+                    case 1:
+                    {
+                        s = "";
+                        double j;
+                        for (int i = 0; i < c; i++)
+                        {
+                            j = Math.floor(Math.random() * 100);
+                            s = s + Double.toString(j) + " ";
+                        }
+                        System.out.println("Выбранные значения: " + s);
+                        break;
+                    }
+                    case 2:
+                    {
+                        s = "";
+                        double j;
+                        for (int i = 0; i < c; i++)
+                        {
+                            j = Math.random() * 100;
+                            s = s + Double.toString(j) + " ";
+                        }
+                        System.out.println("Выбранные значения: " + s);
+                        break;
+                    }
+                }
+
+                break;
+            }
+        }
+
         int[] a = new int[c];
         double[] b = new double[c];
 
         int j = 0;
-
+        try
+        {
+            b = getNumb(s, c);
+        } catch (MyException e)
+        {
+            System.out.println(e.getMessage() + ": " + e.getSymbol());
+        }
+// checking for double or integer
         for (int i = 0; i < c; i++)
         {
-            s = read.readLine();
-            b[i] = Double.parseDouble(s);
             if (b[i] % 1 == 0)
             {
-                a[i] = Integer.parseInt(s);
+                a[i] = (int) b[i];
                 j++;
             }
-
         }
+
         if (j == c)
         {
             getInteger(a);
@@ -40,6 +94,29 @@ public class Task1
             System.out.println("Не корректный ввод");
         }
 
+    }
+
+    private static double[] getNumb(String numbers, int count) throws MyException
+    {
+
+        double[] num = new double[count];
+        int j = 0;
+        String s = "";
+        for (int i = 0; i < numbers.length(); i++)
+        {
+            if (Character.isDigit(numbers.charAt(i)) | numbers.charAt(i) == '.' | numbers.charAt(i) == ' ')
+            {
+                s = s + numbers.charAt(i);
+                if (numbers.charAt(i) == ' ' | i == (numbers.length() - 1))
+                {
+                    num[j] = Double.parseDouble(s);
+                    s = "";
+                    j++;
+                }
+            } else throw new MyException("Введено не число", numbers.charAt(i));
+        }
+
+        return num;
     }
 
 
