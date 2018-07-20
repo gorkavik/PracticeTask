@@ -2,7 +2,12 @@ package task01;
 
 public class MyException extends Exception
 {
-    private char symbol;
+    private  char symbol;
+
+    public MyException(String s)
+    {
+        super(s);
+    }
 
     public char getSymbol()
     {

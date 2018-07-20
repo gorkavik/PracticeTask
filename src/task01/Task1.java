@@ -1,269 +1,275 @@
 package task01;
 
+import sun.security.mscapi.KeyStore;
+
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Task1
 {
 
+public static void main(String[] args) throws Exception
+{
+    int amountOfNumbersForMathOperation = 5;
+    String inputDataFromConsole = getInputDataFromConsole(amountOfNumbersForMathOperation);
 
-    public static void main(String[] args) throws Exception
+    int j = 0;
+    try
     {
-        int c = 5;// amount of numbers for math operation
-        System.out.println("Выберите формат ввода чисел:");
-        System.out.println("1) Ввести " + c + " чисел вручную");
-        System.out.println("2) Произвольный выбор чисел из диапазона 0...100");
-        BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
-        String s = read.readLine();
-        int vybor = Integer.parseInt(s);
-        switch (vybor)
+        Number[] b = convertStringToDoubleAndCheckOnDigit(inputDataFromConsole, amountOfNumbersForMathOperation);
+        applyMathOperationAndPrint(b);
+    } catch (MyException e)
+    {
+        System.out.println(e.getMessage() + ": " + e.getSymbol());
+    }
+}
+
+private static String getInputDataFromConsole(int c) throws IOException
+{
+    System.out.println("Выберите формат ввода чисел:");
+    System.out.println("1) Ввести " + c + " чисел вручную");
+    System.out.println("2) Произвольный выбор чисел из диапазона 0...100");
+    BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+    String s = read.readLine();
+    int vybor = Integer.parseInt(s);
+    switch (vybor)
+    {
+        case 1:
         {
-            case 1:
+            System.out.println("Введите " + c + " только целых или только дробных числа через пробел:");
+            s = read.readLine();
+            break;
+        }
+        case 2:
+        {
+            System.out.println("Выберите - целые или вещественные числа:");
+            System.out.println("1) Целые");
+            System.out.println("2) Вещественные");
+            s = read.readLine();
+            switch (Integer.parseInt(s))
             {
-                System.out.println("Введите " + c + " только целых или только дробных числа через пробел:");
-                s = read.readLine();
-                break;
-            }
-            case 2:
-            {
-                System.out.println("Выберите - целые или вещественные числа:");
-                System.out.println("1) Целые");
-                System.out.println("2) Вещественные");
-                s = read.readLine();
-                switch (Integer.parseInt(s))
+                case 1:
                 {
-                    case 1:
+                    s = "";
+                    double j;
+                    for (int i = 0; i < c; i++)
                     {
-                        s = "";
-                        double j;
-                        for (int i = 0; i < c; i++)
-                        {
-                            j = Math.floor(Math.random() * 100);
-                            s = s + Double.toString(j) + " ";
-                        }
-                        System.out.println("Выбранные значения: " + s);
-                        break;
+                        j = Math.floor(Math.random() * 100);
+                        s = s + Double.toString(j) + " ";
                     }
-                    case 2:
-                    {
-                        s = "";
-                        double j;
-                        for (int i = 0; i < c; i++)
-                        {
-                            j = Math.random() * 100;
-                            s = s + Double.toString(j) + " ";
-                        }
-                        System.out.println("Выбранные значения: " + s);
-                        break;
-                    }
+                    System.out.println("Выбранные значения: " + s);
+                    break;
                 }
-
-                break;
+                case 2:
+                {
+                    s = "";
+                    double j;
+                    for (int i = 0; i < c; i++)
+                    {
+                        j = Math.random() * 100;
+                        s = s + Double.toString(j) + " ";
+                    }
+                    System.out.println("Выбранные значения: " + s);
+                    break;
+                }
             }
-        }
 
-        int[] a = new int[c];
-        double[] b = new double[c];
-
-        int j = 0;
-        try
-        {
-            b = getNumb(s, c);
-        } catch (MyException e)
-        {
-            System.out.println(e.getMessage() + ": " + e.getSymbol());
+            break;
         }
-// checking for double or integer
-        for (int i = 0; i < c; i++)
+    }
+    return s;
+}
+
+private static Number[] convertStringToDoubleAndCheckOnDigit(String inputDataFromConsole, int amountOfNumbersForMathOperation) throws MyException
+{
+
+    double[] num = new double[amountOfNumbersForMathOperation];
+    int j = 0;
+    String s = "";
+    for (int i = 0; i < inputDataFromConsole.length(); i++)
+
+    {
+        if (Character.isDigit(inputDataFromConsole.charAt(i)) | inputDataFromConsole.charAt(i) == '.' | inputDataFromConsole.charAt(i) == ' ')
         {
-            if (b[i] % 1 == 0)
+            s = s + inputDataFromConsole.charAt(i);
+            if (inputDataFromConsole.charAt(i) == ' ' | i == (inputDataFromConsole.length() - 1))
             {
-                a[i] = (int) b[i];
+                num[j] = Double.parseDouble(s);
+                s = "";
                 j++;
             }
-        }
-
-        if (j == c)
-        {
-            getInteger(a);
-        } else if (j == 0)
-        {
-            getDouble(b);
         } else
         {
-            System.out.println("Не корректный ввод");
+            throw new MyException("Введено не число", inputDataFromConsole.charAt(i));
         }
-
     }
+    Integer[] a = new Integer[amountOfNumbersForMathOperation];
+    Double[] b = new Double[amountOfNumbersForMathOperation];
 
-    private static double[] getNumb(String numbers, int count) throws MyException
+    for (int i = 0; i < amountOfNumbersForMathOperation; i++)
     {
-
-        double[] num = new double[count];
-        int j = 0;
-        String s = "";
-        for (int i = 0; i < numbers.length(); i++)
+        if (b[i] % 1 == 0)
         {
-            if (Character.isDigit(numbers.charAt(i)) | numbers.charAt(i) == '.' | numbers.charAt(i) == ' ')
-            {
-                s = s + numbers.charAt(i);
-                if (numbers.charAt(i) == ' ' | i == (numbers.length() - 1))
-                {
-                    num[j] = Double.parseDouble(s);
-                    s = "";
-                    j++;
-                }
-            } else throw new MyException("Введено не число", numbers.charAt(i));
+            a[i] = b[i].intValue();
+            j++;
         }
-
-        return num;
     }
-
-
-    private static void getInteger(int[] numbers)
+    if (j == amountOfNumbersForMathOperation)
     {
-        int sumNumb = getSumNumbers(numbers);
-        System.out.println("Сумма чисел:" + sumNumb);
-
-        int razNumb = getRazNumbers(numbers);
-        System.out.println("Разность чисел:" + razNumb);
-
-        int proizNumb = getProizNumbers(numbers);
-        System.out.println("Произведение чисел:" + proizNumb);
-
-        int minNumb = getMinNumbers(numbers);
-        System.out.println("Минимальное из чисел:" + minNumb);
-
-        int maxNumb = getMaxNumbers(numbers);
-        System.out.println("Максимальное из чисел:" + maxNumb);
-
-        int srznachNumber = getSrznachNumbers(numbers);
-        System.out.println("Среднее значение чисел:" + srznachNumber);
-    }
-
-    private static void getDouble(double[] numbers)
+        return a;
+    } else if (j == 0)
     {
-        double sumNumb = getSumNumbers(numbers);
-        System.out.println("Сумма чисел:" + sumNumb);
-
-        double razNumb = getRazNumbers(numbers);
-        System.out.println("Разность чисел:" + razNumb);
-
-        double proizNumb = getProizNumbers(numbers);
-        System.out.println("Произведение чисел:" + proizNumb);
-
-        double minNumb = getMinNumbers(numbers);
-        System.out.println("Минимальное из чисел:" + minNumb);
-
-        double maxNumb = getMaxNumbers(numbers);
-        System.out.println("Максимальное из чисел:" + maxNumb);
-
-        double srznachNumber = getSrznachNumbers(numbers);
-        System.out.println("Среднее значение чисел:" + srznachNumber);
-    }
-
-
-    // for int
-    private static int getSumNumbers(int[] numbers)
+        return b;
+    } else
     {
-        int sum = 0;
-        for (int i : numbers)
-            sum = sum + i;
-        return sum;
+        throw new MyException("Не корректный ввод");
     }
+}
 
-    private static int getRazNumbers(int[] numbers)
-    {
-        int raz = numbers[0];
-        for (int i = 1; i < numbers.length; i++)
-            raz = raz - numbers[i];
-        return raz;
-    }
+private static void applyMathOperationAndPrint(int[] numbers)
+{
+    int sumNumb = getSumNumbers(numbers);
+    System.out.println("Сумма чисел:" + sumNumb);
 
-    private static int getProizNumbers(int[] numbers)
-    {
-        int prioz = 1;
-        for (int i : numbers)
-            prioz = prioz * i;
-        return prioz;
-    }
+    int razNumb = getRazNumbers(numbers);
+    System.out.println("Разность чисел:" + razNumb);
 
-    private static int getMinNumbers(int[] numbers)
-    {
-        int min = 1;
-        for (int i : numbers)
-        {
-            if (i < min)
-                min = i;
-        }
-        return min;
-    }
+    int proizNumb = getProizNumbers(numbers);
+    System.out.println("Произведение чисел:" + proizNumb);
 
-    private static int getMaxNumbers(int[] numbers)
-    {
-        int max = 0;
-        for (int i : numbers)
-        {
-            if (i > max)
-                max = i;
-        }
-        return max;
-    }
+    int minNumb = getMinNumbers(numbers);
+    System.out.println("Минимальное из чисел:" + minNumb);
 
-    private static int getSrznachNumbers(int[] numbers)
-    {
-        return getSumNumbers(numbers) / numbers.length;
-    }
+    int maxNumb = getMaxNumbers(numbers);
+    System.out.println("Максимальное из чисел:" + maxNumb);
 
-    //for double
-    private static double getSumNumbers(double[] numbers)
-    {
-        double sum = 0;
-        for (double i : numbers)
-            sum = sum + i;
-        return sum;
-    }
+    int srznachNumber = getSrznachNumbers(numbers);
+    System.out.println("Среднее значение чисел:" + srznachNumber);
+}
 
-    private static double getRazNumbers(double[] numbers)
-    {
-        double raz = numbers[0];
-        for (int i = 1; i < numbers.length; i++)
-            raz = raz - numbers[i];
-        return raz;
-    }
+private static void applyMathOperationAndPrint(double[] numbers)
+{
+    double sumNumb = getSumNumbers(numbers);
+    System.out.println("Сумма чисел:" + sumNumb);
 
-    private static double getProizNumbers(double[] numbers)
-    {
-        double prioz = 1;
-        for (double i : numbers)
-            prioz = prioz * i;
-        return prioz;
-    }
+    double razNumb = getRazNumbers(numbers);
+    System.out.println("Разность чисел:" + razNumb);
 
-    private static double getMinNumbers(double[] numbers)
-    {
-        double min = 1;
-        for (double i : numbers)
-        {
-            if (i < min)
-                min = i;
-        }
-        return min;
-    }
+    double proizNumb = getProizNumbers(numbers);
+    System.out.println("Произведение чисел:" + proizNumb);
 
-    private static double getMaxNumbers(double[] numbers)
-    {
-        double max = 0;
-        for (double i : numbers)
-        {
-            if (i > max)
-                max = i;
-        }
-        return max;
-    }
+    double minNumb = getMinNumbers(numbers);
+    System.out.println("Минимальное из чисел:" + minNumb);
 
-    private static double getSrznachNumbers(double[] numbers)
+    double maxNumb = getMaxNumbers(numbers);
+    System.out.println("Максимальное из чисел:" + maxNumb);
+
+    double srznachNumber = getSrznachNumbers(numbers);
+    System.out.println("Среднее значение чисел:" + srznachNumber);
+}
+
+// for int
+private static int getSumNumbers(int[] numbers)
+{
+    int sum = 0;
+    for (int i : numbers)
+        sum = sum + i;
+    return sum;
+}
+
+private static int getRazNumbers(int[] numbers)
+{
+    int raz = numbers[0];
+    for (int i = 1; i < numbers.length; i++)
+        raz = raz - numbers[i];
+    return raz;
+}
+
+private static int getProizNumbers(int[] numbers)
+{
+    int prioz = 1;
+    for (int i : numbers)
+        prioz = prioz * i;
+    return prioz;
+}
+
+private static int getMinNumbers(int[] numbers)
+{
+    int min = 1;
+    for (int i : numbers)
     {
-        return getSumNumbers(numbers) / numbers.length;
+        if (i < min)
+            min = i;
     }
+    return min;
+}
+
+private static int getMaxNumbers(int[] numbers)
+{
+    int max = 0;
+    for (int i : numbers)
+    {
+        if (i > max)
+            max = i;
+    }
+    return max;
+}
+
+private static int getSrznachNumbers(int[] numbers)
+{
+    return getSumNumbers(numbers) / numbers.length;
+}
+
+//for double
+private static double getSumNumbers(double[] numbers)
+{
+    double sum = 0;
+    for (double i : numbers)
+        sum = sum + i;
+    return sum;
+}
+
+private static double getRazNumbers(double[] numbers)
+{
+    double raz = numbers[0];
+    for (int i = 1; i < numbers.length; i++)
+        raz = raz - numbers[i];
+    return raz;
+}
+
+private static double getProizNumbers(double[] numbers)
+{
+    double prioz = 1;
+    for (double i : numbers)
+        prioz = prioz * i;
+    return prioz;
+}
+
+private static double getMinNumbers(double[] numbers)
+{
+    double min = 1;
+    for (double i : numbers)
+    {
+        if (i < min)
+            min = i;
+    }
+    return min;
+}
+
+private static double getMaxNumbers(double[] numbers)
+{
+    double max = 0;
+    for (double i : numbers)
+    {
+        if (i > max)
+            max = i;
+    }
+    return max;
+}
+
+private static double getSrznachNumbers(double[] numbers)
+{
+    return getSumNumbers(numbers) / numbers.length;
+}
 }
