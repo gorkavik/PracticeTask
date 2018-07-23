@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a685aed5-1774-4672-890c-5c92dc5a8faa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MainClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeTask/task01/MyException.class" afterPath="$PROJECT_DIR$/out/production/PracticeTask/task01/MyException.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeTask/task01/Task1.class" afterPath="$PROJECT_DIR$/out/production/PracticeTask/task01/Task1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeTask/task02/Task2.class" afterPath="$PROJECT_DIR$/out/production/PracticeTask/task02/Task2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/task01/Task1.java" afterPath="$PROJECT_DIR$/src/task01/Task1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/task02/Task2.java" afterPath="$PROJECT_DIR$/src/task02/Task2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,9 +25,57 @@
       <file leaf-file-name="Task2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="98" column="77" lean-forward="false" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding>
+                <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+                <element signature="method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getSumSinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getRazSinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getProizSinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getSumSinuses#1;class#Task2#0" expanded="false" />
+                <element signature="method#getSumSinuses#1;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+                <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getRazSinuses#1;class#Task2#0" expanded="false" />
+                <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+                <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getProizSinuses#1;class#Task2#0" expanded="false" />
+                <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+                <element signature="docComment;method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+                <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+                <element signature="method#convertStringToDoubleAndCheckOnDigit#0;class#Task1#0" expanded="false" />
+                <element signature="method#applyMathOperationAndPrint#0;class#Task1#0" expanded="false" />
+                <element signature="method#getSumNumbers#0;class#Task1#0" expanded="false" />
+                <element signature="method#getRazNumbers#0;class#Task1#0" expanded="false" />
+                <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
+                <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
+                <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,11 +104,11 @@
         <option value="$PROJECT_DIR$/src/task01/task" />
         <option value="$PROJECT_DIR$/src/task02/task" />
         <option value="$PROJECT_DIR$/src/task02/MyException2.java" />
-        <option value="$PROJECT_DIR$/src/task02/Task2.java" />
         <option value="$PROJECT_DIR$/src/task01/MyException.java" />
         <option value="$PROJECT_DIR$/src/task01/MainClass.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
         <option value="$PROJECT_DIR$/src/task01/Task1.java" />
+        <option value="$PROJECT_DIR$/src/task02/Task2.java" />
       </list>
     </option>
   </component>
@@ -80,8 +124,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -99,6 +143,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -131,7 +176,7 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask.git" />
+              <option name="myItemId" value="PracticeTask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -141,21 +186,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask.git" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="PracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask.git" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -170,7 +201,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,136 +352,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -466,15 +366,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -519,15 +410,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -561,12 +443,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -593,28 +469,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <list size="2">
@@ -658,7 +512,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -669,24 +523,24 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31848553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32293987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31848553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17963752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18203883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -703,7 +557,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -716,7 +570,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -734,9 +652,6 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -752,7 +667,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="77" lean-forward="false" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
-          <folding />
+          <folding>
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,9 +721,6 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -805,7 +745,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -823,9 +791,6 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -851,9 +816,6 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -879,9 +841,6 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -907,9 +866,6 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -922,13 +878,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/task02/MyException2.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Exception.java" />
     <entry file="file://$PROJECT_DIR$/src/task02/task">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -949,14 +899,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="132" column="5" lean-forward="true" selection-start-line="132" selection-start-column="5" selection-end-line="132" selection-end-column="5" />
+        <state relative-caret-position="199">
+          <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
@@ -967,18 +916,43 @@
             <element signature="method#getProizNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMinNumbers#0;class#Task1#0" expanded="false" />
             <element signature="method#getMaxNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="method#getSrznachNumbers#0;class#Task1#0" expanded="false" />
-            <element signature="e#5326#5327#0" expanded="true" />
-            <marker date="1532120844990" expanded="false" signature="211:689" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="98" column="77" lean-forward="false" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="52" column="31" lean-forward="true" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleAngles#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="docComment;method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

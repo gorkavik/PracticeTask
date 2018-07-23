@@ -3,6 +3,7 @@ package task02;
 import task01.MyException;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -11,66 +12,81 @@ public class Task2
 {
     public static void main(String[] args) throws Exception
     {
-        int c = 5;// amount of numbers for math operation
+        int amountOfNumbersForMathOperation = 5;
+        int units = getUnits();
+
+        applayMathOperationAndPrint(getDoubleInputDataFromConsole(amountOfNumbersForMathOperation, units),units,3);
+    }
+
+    private static int getUnits() throws IOException
+    {
         System.out.println("Выберите единицы измерения угла:");
         System.out.println("1) Градусы");
         System.out.println("2) Радианы");
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String inputDataFromConsole = reader.readLine();
 
-        String str = reader.readLine();
-        int ed = Integer.parseInt(str);
+        int units = Integer.parseInt(inputDataFromConsole);
+        return units;
+    }
+
+    private static double[] getDoubleInputDataFromConsole(int amountOfNumbers, int units) throws IOException, MyException
+    {
         System.out.println("Выберите способ ввода:");
         System.out.println("1) Вручную");
         System.out.println("2) Произвольный выбор");
-        str = reader.readLine();
-        int sp = Integer.parseInt(str);
-        switch (sp)
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String inputDataFromConsole = reader.readLine();
+        int wayToEnterData = Integer.parseInt(inputDataFromConsole);
+        switch (wayToEnterData)
         {
             case 1:
             {
-                System.out.println("Введите " + c + " значений углов через пробел:");
-                str = reader.readLine();
-                System.out.println("Выбраны значения: " + str);
+                System.out.println("Введите " + amountOfNumbers + " значений углов через пробел:");
+                inputDataFromConsole = reader.readLine();
+                System.out.println("Выбраны значения: " + inputDataFromConsole);
                 break;
             }
             case 2:
             {
-                if (ed == 1)
+                if (units == 1)
                 {
-                    str = "";
+                    inputDataFromConsole = "";
                     double j;
-                    for (int i = 0; i < c; i++)
+                    for (int i = 0; i < amountOfNumbers; i++)
                     {
                         j = Math.random() * 361;
-                        str = str + Double.toString(j) + " ";
+                        inputDataFromConsole = inputDataFromConsole + Double.toString(j) + " ";
                     }
-                } else if (ed == 2)
+                } else if (units == 2)
                 {
-                    str = "";
+                    inputDataFromConsole = "";
                     double j;
-                    for (int i = 0; i < c; i++)
+                    for (int i = 0; i < amountOfNumbers; i++)
                     {
                         j = Math.random() * 6.28318530717958647;
-                        str = str + Double.toString(j) + " ";
+                        inputDataFromConsole = inputDataFromConsole + Double.toString(j) + " ";
                     }
 
 
                 }
-                System.out.println("Выбраны значения: " + str);
+                System.out.println("Выбраны значения: " + inputDataFromConsole);
                 break;
             }
         }
+        double[] DoubleAngles = getDoubleAngles(inputDataFromConsole, amountOfNumbers);
+        return DoubleAngles;
+    }
 
-        double[] ang = getDoubleAngles(str, c);
-
+    private static void applayMathOperationAndPrint(double[] ang, int ed, int count)
+    {
         System.out.println("Сумма синусов = " + getSumSinuses(ang, ed, 5));
         System.out.println("Сумма косинусов = " + getSumCosinuses(ang, ed));
         System.out.println("Разность синусов = " + getRazSinuses(ang, ed));
         System.out.println("Разность косинусов = " + getRazCosinuses(ang, ed, 3));
         System.out.println("Произведение синусов = " + getProizSinuses(ang, ed));
         System.out.println("Произведение косинусов = " + getProizCosinuses(ang, ed));
-
     }
 
 

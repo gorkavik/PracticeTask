@@ -11,7 +11,6 @@ public class Task1
         int amountOfNumbersForMathOperation = 5;
         String inputDataFromConsole = getInputDataFromConsole(amountOfNumbersForMathOperation);
 
-        int j = 0;
         try
         {
             Number[] b = convertStringToDoubleAndCheckOnDigit(inputDataFromConsole, amountOfNumbersForMathOperation);
