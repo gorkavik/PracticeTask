@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Task1
 {
-    public void run() throws java.io.IOException, java.text.ParseException
+    public void run1() throws java.io.IOException, java.text.ParseException
     {
         int amountOfNumbersForMathOperation = 5;
         String inputDataFromConsole = getInputDataFromConsole(amountOfNumbersForMathOperation);
