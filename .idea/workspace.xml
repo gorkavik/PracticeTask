@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a685aed5-1774-4672-890c-5c92dc5a8faa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/MathOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/MaxMathOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/MinMathOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/ProizMathOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/RazMathOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/SrznachMathOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/task01/operation/SumMathOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeTask/MainClass.class" afterPath="$PROJECT_DIR$/out/production/PracticeTask/MainClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PracticeTask/task01/Task1.class" afterPath="$PROJECT_DIR$/out/production/PracticeTask/task01/Task1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainClass.java" afterPath="$PROJECT_DIR$/src/MainClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/task01/Task1.java" afterPath="$PROJECT_DIR$/src/task01/Task1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/task02/Task2.java" afterPath="$PROJECT_DIR$/src/task02/Task2.java" />
@@ -14,8 +24,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PracticeTask.git$MainClass.coverage" NAME="MainClass Coverage Results" MODIFIED="1533070360145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -26,47 +47,141 @@
       <file leaf-file-name="Task2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#run2#0;class#Task2#0" expanded="false" />
+                <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
                 <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
-                <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
                 <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
                 <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
                 <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
                 <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
                 <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+                <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
                 <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
                 <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
                 <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
                 <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
                 <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-                <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+      <file leaf-file-name="Math.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Math.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="298">
+              <caret line="235" column="19" lean-forward="false" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="19" />
+              <folding>
+                <element signature="e#5367#5368#0" expanded="true" />
+                <element signature="e#5448#5449#0" expanded="true" />
+                <element signature="e#9016#9017#0" expanded="true" />
+                <element signature="e#9058#9059#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxMathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/operation/MaxMathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding>
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProizMathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/operation/ProizMathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/operation/MathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumMathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/operation/SumMathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SrznachMathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/operation/SrznachMathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-431">
+              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RazMathOperation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/task01/operation/RazMathOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="323">
+              <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +191,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,9 +213,17 @@
         <option value="$PROJECT_DIR$/src/task02/MyException2.java" />
         <option value="$PROJECT_DIR$/src/task01/MyException.java" />
         <option value="$PROJECT_DIR$/src/task01/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/task01/Task1.java" />
-        <option value="$PROJECT_DIR$/src/task02/Task2.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/Operation.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/MinMathOperation.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/RazMathOperation.java" />
         <option value="$PROJECT_DIR$/src/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/MaxMathOperation.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/ProizMathOperation.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/SumMathOperation.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/SrznachMathOperation.java" />
+        <option value="$PROJECT_DIR$/src/task01/operation/MathOperation.java" />
+        <option value="$PROJECT_DIR$/src/task02/Task2.java" />
+        <option value="$PROJECT_DIR$/src/task01/Task1.java" />
       </list>
     </option>
   </component>
@@ -134,35 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask.git" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask.git" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PracticeTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="task01" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,7 +286,68 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask.git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask.git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask.git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask.git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PracticeTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="operation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -510,6 +666,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -631,6 +788,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -674,11 +837,13 @@
       <workItem from="1532111841321" duration="10317000" />
       <workItem from="1532125139526" duration="47000" />
       <workItem from="1532455710422" duration="1383000" />
+      <workItem from="1533063434402" duration="442000" />
+      <workItem from="1533063925459" duration="7537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17190000" />
+    <option name="totallyTimeSpent" value="25169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,25 +856,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889125" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31848553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32293987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18390192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -735,7 +901,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -746,10 +912,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
             <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
@@ -757,12 +927,110 @@
             <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-            <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -773,7 +1041,8 @@
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,6 +1053,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
             <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
@@ -791,12 +1064,12 @@
             <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-            <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -807,6 +1080,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
             <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
@@ -814,12 +1091,12 @@
             <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-            <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -830,7 +1107,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -848,6 +1126,10 @@
           <caret line="98" column="77" lean-forward="false" selection-start-line="98" selection-start-column="77" selection-end-line="98" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
             <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
@@ -855,12 +1137,12 @@
             <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-            <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -879,7 +1161,8 @@
           <caret line="118" column="19" lean-forward="true" selection-start-line="101" selection-start-column="8" selection-end-line="118" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -906,6 +1189,10 @@
           <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#getUnits#0;class#Task2#0" expanded="false" />
+            <element signature="method#getDoubleInputDataFromConsole#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
             <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
@@ -913,12 +1200,12 @@
             <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
             <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
             <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-            <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -929,7 +1216,8 @@
           <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -947,7 +1235,8 @@
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -965,7 +1254,8 @@
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -983,7 +1273,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1013,45 +1304,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="184">
+          <caret line="3811" column="27" lean-forward="false" selection-start-line="3811" selection-start-column="22" selection-end-line="3811" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getInputDataFromConsole#0;class#Task1#0" expanded="false" />
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/MinMathOperation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/MaxMathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
-            <element signature="method#getSumSinuses#0;class#Task2#0" expanded="false" />
-            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
-            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
-            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
-            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
-            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
-            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
-            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
-            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
-            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
-            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
-            <marker date="1532456468312" expanded="false" signature="204:411" ph="{...}" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/RazMathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/ProizMathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/MathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/SrznachMathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/operation/SumMathOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="235" column="19" lean-forward="false" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="19" />
+          <folding>
+            <element signature="e#5367#5368#0" expanded="true" />
+            <element signature="e#5448#5449#0" expanded="true" />
+            <element signature="e#9016#9017#0" expanded="true" />
+            <element signature="e#9058#9059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task02/Task2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#run2#0;class#Task2#0" expanded="false" />
+            <element signature="method#applayMathOperationAndPrint#0;class#Task2#0" expanded="false" />
+            <element signature="method#convertInputStringOfAnglesToDouble#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#0;class#Task2#0" expanded="false" />
+            <element signature="method#getSumSinuses#2;class#Task2#0" expanded="false" />
+            <element signature="method#getSumCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getRazCosinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizSinuses#1;class#Task2#0" expanded="false" />
+            <element signature="method#getProizCosinuses#1;class#Task2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/task01/Task1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-431">
+          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

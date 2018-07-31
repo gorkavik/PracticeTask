@@ -117,6 +117,26 @@ public class Task2
         return sum;
     }
 
+    private double getSumSinusesRadian(double[] angles)
+    {
+        double[] radians = new double[angles.length];
+        for (int i = 0; i < angles.length; i++){
+            radians[i]=Math.toRadians(angles[i]);
+        }
+
+        return getSumSinuses(radians);
+    }
+
+    private double getSumSinuses(double[] angles)
+    {
+        double sum = 0;
+        for (double angle : angles)
+        {
+            sum = sum + Math.sin(angle);
+        }
+        return sum;
+    }
+
     private double getSumCosinuses(double[] angles, int type)
     {
         double sum = 0;
