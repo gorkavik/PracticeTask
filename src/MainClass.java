@@ -1,17 +1,18 @@
-import task01.operation.MathOperation;
-import task01.operation.MaxMathOperation;
-import task01.operation.MinMathOperation;
-import task01.operation.ProizMathOperation;
-import task01.operation.SrznachMathOperation;
-import task01.operation.SumMathOperation;
+import task01.Task1;
+import task01.operation.*;
+import task01.printmenu.Menu;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class MainClass
 {
     public static void main(String[] args) throws Exception
     {
+        final BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         SumMathOperation sumMathOperation = new SumMathOperation();
+        Menu menu = new Menu();
 
         ArrayList<MathOperation> mathOperations = new ArrayList<>();
         mathOperations.add(new MaxMathOperation());
@@ -19,7 +20,7 @@ public class MainClass
         mathOperations.add(sumMathOperation);
         mathOperations.add(new SrznachMathOperation(sumMathOperation));
 
-        new task01.Task1(mathOperations).run1();
+        new Task1(mathOperations, menu).run1(read);
         //new task02.Task2().run2();
     }
 }
