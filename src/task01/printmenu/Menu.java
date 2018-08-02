@@ -1,31 +1,17 @@
 package task01.printmenu;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 
 public class Menu
 {
-
     public String printMenu(BufferedReader read) throws Exception
     {
-        String str="";
         int amount = new GetAmountOfNumbers().getChoose(read);
+        System.out.println("Выбор: " + amount);
         int inputMethod = new GetInputMetod(amount).getChoose(read);
-        switch (inputMethod)
-        {
-            case 1:
-            {
-                str = new GetDataFromConsole(amount).getData(read);
-                break;
-            }
-            case 2:
-            {
-                str = new GetDataRandom(amount).getData(read);
-                break;
-            }
-        }
-
+        System.out.println("Выбор: " + inputMethod);
+        String str = new MenuMapGetData(amount, read).getDataFromSelectMenuItem(inputMethod);
+        System.out.println("Выбор: " + str);
         return str;
     }
-
 }

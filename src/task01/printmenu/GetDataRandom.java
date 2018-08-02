@@ -6,7 +6,6 @@ public class GetDataRandom
 {
     private final int amountOfNumbers;
 
-
     public GetDataRandom(int amountOfNumbers)
     {
         this.amountOfNumbers = amountOfNumbers;
@@ -14,24 +13,12 @@ public class GetDataRandom
 
     public String getData(BufferedReader bufferedReader) throws Exception
     {
-        String str="";
+
         System.out.println("Выберите - целые или вещественные числа:");
         System.out.println("1) Целые");
         System.out.println("2) Вещественные");
-        int i = Integer.parseInt(bufferedReader.readLine());
-        switch (i)
-        {
-            case 1:
-            {
-                str = new Random().getRandomInt(amountOfNumbers);
-                break;
-            }
-            case 2:
-            {
-                str = new Random().getRandomDouble(amountOfNumbers);
-                break;
-            }
-        }
+        int type = Integer.parseInt(bufferedReader.readLine());
+        String str = new MenuMapGetDataRandom(amountOfNumbers, bufferedReader).getDataFromSelectMenuItem(type);
         System.out.println("Выбранные значения: " + str);
         return str;
     }
