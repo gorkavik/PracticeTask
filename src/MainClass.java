@@ -1,6 +1,7 @@
 import task01.Task1;
 import task01.operation.*;
 import task01.printmenu.Menu;
+import task02.Task2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -21,6 +22,6 @@ public class MainClass
         mathOperations.add(new SrznachMathOperation(sumMathOperation));
 
         new Task1(mathOperations, menu).run1(read);
-        //new task02.Task2().run2();
+        new Task2().run2(read);
     }
 }

@@ -17,6 +17,18 @@ public class SumMathOperation implements MathOperation
     }
 
     @Override
+    public Number calculate(ArrayList<Number> numbers, int type)
+    {
+        return null;
+    }
+
+    @Override
+    public Number calculate(ArrayList<Number> numbers, int type, int accuracy)
+    {
+        return null;
+    }
+
+    @Override
     public String toString()
     {
         return "Summa";
