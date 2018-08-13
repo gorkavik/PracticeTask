@@ -22,11 +22,6 @@ public class Task1
         this.menu = menu;
     }
 
-    public Task1()
-    {
-
-    }
-
     public void run1(BufferedReader read) throws Exception
     {
         String inputDataFromConsole = menu.printMenu(read);

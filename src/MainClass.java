@@ -22,6 +22,6 @@ public class MainClass
         mathOperations.add(new SrznachMathOperation(sumMathOperation));
 
         new Task1(mathOperations, menu).run1(read);
-        new Task2().run2(read);
+        //new Task2().run2(read);
     }
 }

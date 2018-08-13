@@ -10,7 +10,7 @@ public class Menu
 
         int inputMethod = new GetInputMetod(amount).getChoose(read);
 
-        String str = new MenuMapGetData(amount, read).getDataFromSelectMenuItem(inputMethod);
+        String str = new MenuMapGetData().getDataFromSelectMenuItem(inputMethod,amount, read);
 
         return str;
     }

@@ -6,17 +6,24 @@ import java.util.Map;
 
 public class MenuMapGetData implements MenuMap
 {
-    private Map<Integer, String> menuGetData = new HashMap<>();
+    private Map<Integer, GetData> menuGetData = new HashMap<>();
 
-    public MenuMapGetData(int amountOfNumbers, BufferedReader bufferedReader) throws Exception
+    public MenuMapGetData()
     {
-        menuGetData.put(1, new GetDataFromConsole(amountOfNumbers).getData(bufferedReader));
-        menuGetData.put(2, new GetDataRandom(amountOfNumbers).getData(bufferedReader));
+        menuGetData.put(1, new GetDataFromConsole());
+        menuGetData.put(2, new GetDataRandom());
     }
 
     @Override
     public String getDataFromSelectMenuItem(int inputMethod)
     {
-        return menuGetData.get(inputMethod);
+        return null;
     }
-}
+
+    @Override
+    public String getDataFromSelectMenuItem(int inputMethod,int amountOfNumbers, BufferedReader bufferedReader) throws Exception
+    {
+        return menuGetData.get(inputMethod).getData(amountOfNumbers, bufferedReader);
+    }
+
+   }
