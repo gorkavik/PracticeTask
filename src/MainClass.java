@@ -11,7 +11,7 @@ public class MainClass
 {
     public static void main(String[] args) throws Exception
     {
-        final BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
+        /*final BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
         SumMathOperation sumMathOperation = new SumMathOperation();
         Menu menu = new Menu();
 
@@ -22,6 +22,6 @@ public class MainClass
         mathOperations.add(new SrznachMathOperation(sumMathOperation));
 
         new Task1(mathOperations, menu).run1(read);
-        //new Task2().run2(read);
+        //new Task2().run2(read);*/
     }
 }
