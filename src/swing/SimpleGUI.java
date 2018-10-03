@@ -17,12 +17,13 @@ public class SimpleGUI extends JFrame
     {
         super("Тестирование");
         this.setBounds(200, 200, 500, 500);
+        this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         Container container = this.getContentPane();
         container.setLayout(new GridLayout(3, 1, 2, 2));
         container.add(label1);
-        /*container.add(input);
+        container.add(input);
 
         ButtonGroup group = new ButtonGroup();
         group.add(radio1);
@@ -30,7 +31,7 @@ public class SimpleGUI extends JFrame
         container.add(radio1);
 
         radio1.setSelected(true);
-        container.add(radio2);*/
+        container.add(radio2);
         container.add(check);
         button.addActionListener(new ButtonEventListener());
         container.add(button);

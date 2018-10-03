@@ -6,11 +6,12 @@ import java.awt.event.ActionListener;
 
 public class ButtonEventListener implements ActionListener
 {
-    //private JButton button = new JButton("Press");
+    private JLabel labelPic=new JLabel();
+    private JButton button = new JButton("Press");
     private JTextField input = new JTextField("", 5);
-    //private JLabel label = new JLabel("Input:");
+    private JLabel label1 = new JLabel("Вопрос");
     private JRadioButton radio1 = new JRadioButton("Select this");
-    //private JRadioButton radio2 = new JRadioButton("Select that");
+    private JRadioButton radio2 = new JRadioButton("Select that");
     private JCheckBox check = new JCheckBox("Check", false);
 
     public void actionPerformed(ActionEvent e)
@@ -26,6 +27,11 @@ public class ButtonEventListener implements ActionListener
                 message,
                 "Output",
                 JOptionPane.PLAIN_MESSAGE);
+
+        //String s="swing/pictures/pic1.jpg";
+       //ImageIcon img =new ImageIcon("swing/pictures/pic1.jpg");
+
     }
+
 }
 

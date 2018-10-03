@@ -12,6 +12,9 @@ import java.util.Collection;
 public class Task1
 {
 
+    public Task1()
+    {
+    }
 
     private  Collection<MathOperation> operations;
     private  Menu menu;
